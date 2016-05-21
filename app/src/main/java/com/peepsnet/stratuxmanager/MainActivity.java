@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
         stratuxWebUI = (WebView) findViewById(R.id.webView);
         stratuxWebUI.getSettings().setJavaScriptEnabled(true);
+        // load this page into webView
         stratuxWebUI.loadUrl("http://192.168.10.1");
     }
 }
